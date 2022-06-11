@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar-brand{
+    color: #555D66;
+    font-family: "Playfair Display", serif;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+
+.nav-item a{
+    color: #555D66;
+    text-transform: uppercase;
+    
+}
+.nav-item a:hover{
+    color: rgb(197, 195, 195);
+}
+
+.nav-bg{
+    background-image: url(img/medicine-slide.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    /* position: relative; */
+    
+}
+
+
+/* slide */
+.slide{
+    color: #3E4A59;
+}
+
+.slide .btn{
+    background-color: #4C637F;
+    border: none;
+    border-radius: o;
+    text-transform: uppercase;
+}
+.slide .btn:hover{
+    background-color: #3E4A59;
+    border: none;
+    border-radius: o;
+    text-transform: uppercase;
+}
+
+.slide h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 600px) {
+    .slide h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+  }
+
+.slide a{
+    text-decoration: none;
+    color: #73a3de;    
+}
+.slide a:hover{
+    text-decoration: none;
+    color: #73a3de;   
+    text-decoration: underline; 
+}
+
+.grid .col1{
+    background-color: #CCD3DB;
+}
+
+.grid .col2{
+    background-color: #858E99;
+}
+
+.grid .col3{
+    background-color: #555D66;
+}
+
+.grid i{
+    font-size: 5rem;
+    
+}
+
+
+/* sec3 */
+
+.sec3-col img{
+    width: 100%;
+}
+.sec3-col .col1{
+    display: flex;
+}
+
+/* sec4 */
+.sec4{
+    background-color: #858E99;
+    color: white;
+}
+
+
+
+/* sec5 */
+.sec5 img{
+   width: 100%;
+}
+
+.sec5 h3{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 600px) {
+    .slide h1 {
+        font-weight: 300;
+        font-size: 1.25rem;
+        line-height: 1.1;
+    }
+  }
+
+
+/* sec6 */
+.sec6{
+    background-color: #E0E5EB;
+}
+
+.sec6 h3{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+.sec6 .card{
+    border: none;
+    box-shadow: 5px 8px 20px 4px rgb(0 91 175 / 20%);
+}
+
+.sec6 a{
+    text-decoration: none;
+    color: #7CA3DE;    
+}
+
+.sec6 a:hover{
+    text-decoration: none;
+    color: #4b82d4;    
+}
+
+/* sec7 */
+.sec7{
+    background: #555D66;
+}
+
+.sec7 h4{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+.sec7 img{
+    width: 100%;
+}
+
+/* sec8 */
+.sec8 img{
+    width: 100%;
+    
+}
+
+.card-body1{
+    background-color: #3E4A59;
+    color: white;
+}
+
+.sec8 h3{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+.card-body2{
+    background-color: #3E4A59;
+    color: white;
+}
+
+.card-body3{
+    background-color: #3E4A59;
+    color: white;
+}
+
+.card{
+    background-color: #858E99;
+}
+
+
+
+.sec8 .card{
+    border: none;
+    box-shadow: 5px 8px 20px 4px rgb(0 91 175 / 20%);
+}
+
+
+/* sec9 */
+
+
+.sec9{
+    background: #858E99;
+}
+
+.sec9 h2{    
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+.sec9 .btn{
+    background-color: #E0E5EB;
+    border: none;
+    border-radius: 0%;
+    font-weight: 500;   
+    color: black;
+}
+.sec9 .btn:hover {
+    background-color: #c5cacfc4;
+    border: none;
+    border-radius: 0%;
+    font-weight: 500; 
+    color: black;  
+}
+
+
+.sec9 .form-control{
+    background-color: #d7e8fcef;
+    border-radius: 0%;  
+    border: none;  
+    color: white;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOOTER*/
+.footer{
+    background-color: #333333;
+    padding: 50px;
+}
+
+.footer h5 {
+    color: white;
+}
+.text{
+    color: rgb(196, 192, 192);
+}
+
+.footer ul li{
+    color: white;
+    list-style: none;
+}
+
+.footer ul li i{
+    margin: 5px;
+}
+
+.footer i{
+    margin-left: 15px;
+}
+
+.copyright{
+    background-color: black;
+    
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #858E99;
+}
+
+.cr{
+    color: rgb(163, 157, 157);
+}
